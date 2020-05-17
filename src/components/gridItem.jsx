@@ -7,7 +7,7 @@ const GridItem = ({ image, alt, title }) => {
         <div className="card">
             <img className="card-img-top" src={image} alt={alt}/>
                 <div className="card-body">
-    <p className="card-text text-muted">{title} <span>{share}</span></p>
+                <p className="card-text text-muted">{title} <span>{share}</span></p>
             </div>
         </div>
     )
