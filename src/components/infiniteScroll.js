@@ -1,8 +1,6 @@
 import React from "react"
-import PropTypes from "prop-types"
 import InfiniteScroll from "react-infinite-scroll-component"
-import {graphql} from "gatsby"
-import "./grid.css"
+
 
 
 const Grid = ({ images, loading, fetchImages }) => {

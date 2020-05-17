@@ -4,19 +4,13 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-  <nav className="navbar is-light" style={{ marginBottom: "2em" }}>
-        <div className="navbar-brand">
+    <nav id="topNav" className="navbar fixed-top navbar-inverse bg-inverse">
           <Link
             to="/"
-            style={{
-              marginLeft: "5em",
-              padding: "10px",
-            }}
-            className="has-text-dark is-size-3"
+            className="navbar-brand mx-auto text-decoration-none text-reset"
           >
             {siteTitle}
           </Link>
-        </div>
     </nav>
   </header>
 )
