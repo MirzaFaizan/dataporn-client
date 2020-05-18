@@ -1,0 +1,8 @@
+.search {
+    border-radius: 1.5rem;
+    border-color: grey;
+}
+
+.search:focus {
+    outline: none;
+}
