@@ -14,7 +14,6 @@ const Header = ({ siteTitle }) => (
             >
               <img src={logo} width="50" height="50" alt="dataporn"/>
             </Link>
-            <input type="text" className="mr-sm-2 search" placeholder="  search" />
          </div>
     </nav>
   </header>

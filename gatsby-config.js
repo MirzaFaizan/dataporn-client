@@ -3,6 +3,8 @@ module.exports = {
     title: `Data Porn`,
     description: `Get mind blown`,
     author: `@mirzafaizan`,
+    // siteUrl: `https://dataporn.cc`
+
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

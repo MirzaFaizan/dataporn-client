@@ -50,7 +50,7 @@ const IndexPage = () => {
           </div>
         </div>:
         data.posts.nodes.slice(0,offset+10).map((post, index) =>{ return(
-          <GridItem key={index} image={`https://api.dataporn.cc/wp-content/uploads/${post.featuredImage.mediaDetails.file}`} setImage={setImage} setOpenImage={setOpenImage}  alt={post.featuredImage.slug} title={post.title}/>
+          <GridItem key={index} image={`https://api.dataporn.cc/wp-content/uploads/${post.featuredImage.mediaDetails.file}`} setImage={setImage} setOpenImage={setOpenImage}  alt={post.title} title={post.title}/>
         )})}
       </div>
       {isFetching && <div className="col">

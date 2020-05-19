@@ -27,9 +27,9 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer className="bg-warning text-white">
           © {new Date().getFullYear()}, Built by
-          {` `}
+          {` `} 
           <a href="https://imranmirza.me">Mirza Imran</a>
         </footer>
       </div>
