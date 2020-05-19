@@ -8,7 +8,6 @@
 
 This project features a multimedia feed fetched from a CMS through GraphQL querying. Later converted into a Progressive Web Application. Which is downloadable to your mobile phone.
 
-
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
@@ -56,8 +55,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+9.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+11. **`README.md`**: A text file containing useful reference information about your project.

@@ -1,4 +1,3 @@
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -30,7 +29,9 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, Built by
           {` `}
-          <a style={{color:`#0012ff`}} href="https://imranmirza.me">Mirza Imran</a>
+          <a style={{ color: `#0012ff` }} href="https://imranmirza.me">
+            Mirza Imran
+          </a>
         </footer>
       </div>
     </>

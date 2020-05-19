@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require("path")
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
@@ -7,12 +7,12 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         {
           test: /\.(graphql|gql)$/,
           exclude: /node_modules/,
-          loader: 'graphql-tag/loader',
+          loader: "graphql-tag/loader",
         },
       ],
     },
     resolve: {
-      modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+      modules: [path.resolve(__dirname, "src"), "node_modules"],
     },
   })
 }

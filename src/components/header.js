@@ -7,14 +7,11 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
   <header>
     <nav id="topNav" className="navbar fixed-top navbar-inverse bg-inverse">
-         <div className="mx-auto">
-          <Link
-              to="/"
-              className="navbar-brand text-decoration-none text-reset"
-            >
-              <img src={logo} width="50" height="50" alt="dataporn"/>
-            </Link>
-         </div>
+      <div className="mx-auto">
+        <Link to="/" className="navbar-brand text-decoration-none text-reset">
+          <img src={logo} width="50" height="50" alt="dataporn" />
+        </Link>
+      </div>
     </nav>
   </header>
 )

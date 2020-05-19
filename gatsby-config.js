@@ -4,7 +4,6 @@ module.exports = {
     description: `Get mind blown`,
     author: `@mirzafaizan`,
     // siteUrl: `https://dataporn.cc`
-
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/`]
+        precachePages: [`/`],
       },
     },
     {
