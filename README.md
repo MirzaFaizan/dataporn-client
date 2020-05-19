@@ -1,12 +1,13 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f8aaa049-dd36-47f5-a5fb-72198d1d3200/deploy-status)](https://app.netlify.com/sites/dataporn/deploys)
+
 <p align="center">
   <a href="https://dataporn.cc">
     <h1>DataPorn</h1>
   </a>
 </p>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+This project features a multimedia feed fetched from a CMS through GraphQL querying. Later converted into a Progressive Web Application. Which is downloadable to your mobile phone.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
