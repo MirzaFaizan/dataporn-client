@@ -27,10 +27,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer className="bg-warning text-white">
+        <footer>
           © {new Date().getFullYear()}, Built by
-          {` `} 
-          <a href="https://imranmirza.me">Mirza Imran</a>
+          {` `}
+          <a style={{color:`#0012ff`}} href="https://imranmirza.me">Mirza Imran</a>
         </footer>
       </div>
     </>
