@@ -13,14 +13,13 @@ This project features a multimedia feed fetched from a CMS through GraphQL query
 
 1.  **Create a Gatsby site.**
 
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
     ```shell
     # create a new Gatsby site using the default starter
     gatsby new app
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -29,7 +28,7 @@ This project features a multimedia feed fetched from a CMS through GraphQL query
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
