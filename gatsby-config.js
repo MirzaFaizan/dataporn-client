@@ -23,19 +23,15 @@ module.exports = {
         start_url: `/`,
         background_color: `#0000ff`,
         theme_color: `#0000ff`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-offline`,
       options: {
-        fonts: [
-          `limelight`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
-        ],
-        display: 'swap'
-      }
+        precachePages: [`/`]
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
