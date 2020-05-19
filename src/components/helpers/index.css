@@ -1,0 +1,44 @@
+.react-notification-container {
+    bottom: 50px;
+    display: block;
+    height: auto;
+    min-width: 300px;
+    right: 35px;
+    position: fixed;
+    z-index: 99998;
+  }
+  
+  .react-notification-container .react-notification:not(:last-of-type) {
+    margin-bottom: 14px;
+  }
+  
+  .react-notification {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    padding: 8px 14px;
+    z-index: 99999;
+  }
+  
+  .react-notification__title {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 6px;
+  }
+  
+  .react-notification__content {
+    color: #666;
+    font-size: 14px;
+    font-weight: light;
+  }
+  
+  .react-notification--success {
+    border-left: 4px solid greenyellow;
+  }
+  
+  .react-notification--error {
+    border-left: 4px solid tomato;
+  }
